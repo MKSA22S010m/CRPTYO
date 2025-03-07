@@ -5,7 +5,7 @@ const cryptoApiHeaders = {
   "X-RapidAPI-Host": import.meta.env.VITE_RAPID_API_HOST,
 };
 
-const baseUrl = import.meta.env.VITE_BASE_URL;
+const baseUrl = "https://newapi.com/v1";
 
 const createRequest = (url) => ({ url, headers: cryptoApiHeaders });
 
